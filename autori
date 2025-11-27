@@ -1,0 +1,5 @@
+text = input()
+parts = text.replace("_", " ").replace("-", " ").split()
+result = "".join(p[0].upper() for p in parts)
+
+print(result)
